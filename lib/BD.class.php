@@ -4,6 +4,8 @@
 	{
 		define('BD_UNAFDT', 1) ;
 		
+		// Base de données principale
+		
 		class BdPrincUnafdt extends MysqlDB
 		{
 			public $AutoSetCharacterEncoding = 1 ;
