@@ -1,0 +1,111 @@
+/*
+Jssor video styles
+*/
+.jssor-vid {
+	margin: 0 auto; 
+	position: relative; 
+	top:7rem; 
+	left: 0px; 
+	width: 2000px; 
+	height: 500px; 
+	overflow: hidden; 
+	visibility: hidden; 
+	background-color: #ffffff;
+}
+.watch-now {
+	display: block; 
+	text-align:left;
+	position:absolute;
+	top: 400px; 
+	width: 300px; 
+	left: 150px;
+	height: 50px; 
+	background-color: #82bc00; 
+	font-size: 30px; 
+	color: #ffffff; 
+	line-height: 50px; 
+	text-align: center;
+}
+.clear-bottom {
+	clear:both; 
+	margin-bottom:5rem;
+	}
+.vid-clip {
+	text-align:center; 
+	position:relative; top:100px;
+	}
+.vid-clip img{
+	width:924px; 
+	height:auto;
+	}
+	
+/* RESPONSIVE ----------*/
+/*---------- MEDIA 360px ----------*/
+@media only screen and (max-width: 360px) {
+.jssor-vid {
+	top:4rem; 
+}
+.clear-bottom {
+	clear:both; 
+	margin-bottom:3rem;
+	}
+.vid-clip {
+	text-align:center; 
+	position:relative; 
+	top:75px;
+}
+.vid-clip img{
+	width:500px;
+	height:auto;
+	text-align:center;
+	}
+.watch-now {
+	left: -470px; 
+}
+}
+
+/*---------- MEDIA 640px ----------*/
+@media only screen and (max-width: 640px) {
+.jssor-vid {
+	top:4rem; 
+}
+.clear-bottom {
+	clear:both; 
+	margin-bottom:3rem;
+	}
+.vid-clip {
+	text-align:left; 
+	position:relative; 
+	top:75px;
+}
+.vid-clip img{
+	width:700px;
+	height:auto;
+	}
+.watch-now {
+	left: -470px; 
+}
+}
+/*---------- MEDIA 641px to 940px ----------*/
+@media (max-width: 641px) and (max-width: 940px) {
+.jssor-vid {
+	top:4rem; 
+}
+.clear-bottom {
+	clear:both; 
+	margin-bottom:3rem;
+	}
+.vid-clip {
+	text-align:left; 
+	position:relative; 
+	top:100px;
+	left: 1%;
+}
+.vid-clip img{
+	width:700px;
+	height:auto;
+	}
+.watch-now {
+	left: -470px; 
+}
+}

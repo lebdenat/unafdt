@@ -1,0 +1,16 @@
+span.logo {
+	padding:4px ;
+    font-size: 22px;
+    font-weight: 300;
+    color: #FF0000;
+    text-transform: uppercase;
+}
+
+span.logo:hover, a.logo:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+span.logo span {
+    color: #688a7e;
+}

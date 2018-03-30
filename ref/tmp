@@ -1,0 +1,21 @@
+<ul class="nav nav-pills">
+<li><a data-toggle="pill" href="#'.this->IDInstanceCalc.'_Infos"><span class="fa fa-info"></i> Informations</a></li>
+<li class="active"><a data-toggle="pill" href="#'.this->IDInstanceCalc.'_Form"><span class="fa fa-newspaper-o"></i> Formulaire</a></li>
+<li><a data-toggle="pill" href="#'.this->IDInstanceCalc.'_Comment"><span class="fa fa-comment"></i> Commentaires</a></li>
+</ul>
+<div class="tab-content">
+<div id="'.this->IDInstanceCalc.'_Infos" class="tab-pane fade">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12">'.$this->RenduLibelleFiltre($script->FltIdAff).'</div>
+</div>
+<div class="row">
+<div class="col-xs-12">'.$this->RenduFiltre($script->FltIdAff).'</div>
+</div>
+</div>
+</div>
+<div id="'.this->IDInstanceCalc.'_Form" class="tab-pane fade in active">
+</div>
+<div id="'.this->IDInstanceCalc.'_Comment" class="tab-pane fade">
+</div>
+</div>

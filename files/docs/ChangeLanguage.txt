@@ -1,0 +1,6 @@
+NOTE 1: to change the Text/Subtitles language:
+1. open "Skyrim_Default.ini"
+2. change the language in the 1st line sLanguage=…  3. run the game from SkyrimSELauncher
+NOTE 2: To change the Text + Audio language:
+1. download you language pack  2. go to Documents\My Games\Skyrim Special Edition and delete Skyrim.INI  3. install the language pack 4. copy the crack from PLAZA folder
+Language Packs : German | French | Italian | Spanish | Polish | Russian | Chinese-T (Text)

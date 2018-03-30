@@ -1,0 +1,150 @@
+/*
+	StyleSheet For Responsive Bootstrap Carousel
+	Author: SZThemes
+	Item Name: Responsive Bootstrap Carousel
+	Author URI: http://codecanyon.net/user/sz_themes
+	Description: Different Types of Bootstrap Carousel
+
+								Content List
+  -----------------------------------------------------------------------------------
+	NAME ----------------------------------------LINE NUMBER--------------------- #
+	VIDEO CAROUSEL ------------------------------54------------------------------ 01
+	RESPONSIVE ----------------------------------316----------------------------- 02	
+	COLORS --------------------------------------483----------------------------- 03	
+  -----------------------------------------------------------------------------------
+							Fonts Styles
+  -----------------------------------------------------------------------------------
+	  'Geometria', sans-serif ---------------------------------- 01
+	        
+  -----------------------------------------------------------------------------------
+							Color Codes
+  -----------------------------------------------------------------------------------
+	NAME    ------------------------RGB-------------------------- #
+	#ffffff -------------------rgb(255, 255, 255)---------------- 01
+	#000000 -------------------rgb(0, 0, 0)---------------------- 02
+	#1abc9c -------------------rgb(26, 188, 156)----------------- 03 Replace Only This Color To Change Whole Color Scheme
+	#282828 -------------------rgb(40, 40, 40)------------------- 04
+*/
+
+/*------------------------------------------------------*/
+/* VIDEO CAROUSEL
+/*------------------------------------------------------*/
+
+.video_carousel_wrapper {
+  overflow: hidden;
+  height: 100% !important;
+  position: relative;
+  top:10rem;
+  width: 100% !important;
+  clear:both;
+  border-bottom: 3px solid #003a5c;
+  margin-bottom: 140px;
+}
+.item > img,
+.item > a > img {
+	opacity: 1;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+body {
+	background-color: grey;
+}
+clear {clear:both;}
+
+/*---------- SLIDES ----------*/
+/*---------- Backgrounds ----------*/
+.statbox {
+	width:25%; 
+	float:left; 
+	text-align:center; 
+	min-width:230px;
+	min-height:360p;
+	height:auto;
+	top:5px;
+	background-color: white;
+	}
+/*---------- CAPTION ----------*/
+/*---------- VIDEO ----------*/
+.video_carousel_caption {
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width:100%;
+  padding: 0%;
+}
+.video_carousel_video {
+  width: 100%;
+  opacity: 1;
+}
+/*---------- TEXT ----------*/
+.risk-data {
+	text-align:center;
+}
+.risk-text {
+	top: 1%;
+	z-index: 2;
+	text-align: center;
+	text-shadow: none;
+	position: relative;
+	font-family: 'Geometria', sans-serif;
+}
+.risk-text h1 {
+	padding: 0%;
+	width: 100%;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: normal;
+	padding: 5px 10px;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	color:#F38B00;
+	font-family: 'Impact', sans-serif;
+}
+.source {
+	width: 100%;
+	min-width:230px;
+	min-height:20px;
+	height: auto;
+	margin-top: 20px;
+	font-size: 16px;
+	padding: 5px 10px;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	background-color:#82bc00;
+	color: #ffffff;
+	text-align: left;
+	font-family: 'Geometria', sans-serif;
+	float:left;
+	clear:both;
+}
+
+/*------------------------------------------------------*/
+/* RESPONSIVE
+/*------------------------------------------------------*/
+/*---------- MEDIA 1000px ----------*/
+@media (max-width: 1000px) {
+.video_carousel_wrapper {
+  top:5rem;
+  margin-bottom: 60px;
+}
+  /*---------- CAPTION ----------*/
+  /*---------- TEXT ----------*/
+  
+  .statbox {
+	width:100%; 
+	float:left; 
+	clear:both;
+	text-align:center; 
+	min-width:230px;
+	min-height:350px;
+	margin: 10px 0px;
+	background-color: white;
+	}
+}
+
+/*---------- MEDIA 1001 -1920px ----------*/
+@media (min-width: 1001px) and (max-width: 1920px) {
+  /*---------- CAPTION ----------*/
+}
+/*----------  END  ----------*/
